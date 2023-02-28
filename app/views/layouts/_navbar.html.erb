@@ -7,18 +7,18 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav me-auto">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Home
+        <a class="nav-link active" <%= link_to "Home",previews_path %>
           <span class="visually-hidden">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" <%= link_to "Sign in",sign_ins_path %></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" <%= link_to "Cards",cards_path %></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" <%= link_to "Footer",footers_path %></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
