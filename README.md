@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ce design est fait comme une application web
 
-Things you may want to cover:
+Téléchargez, clonez, récupérez comme bon vous semble les fichiers.
 
-* Ruby version
+* Aller dans le dossier
 
-* System dependencies
+* faire un bundle install
 
-* Configuration
+* Lancer un rails db:migrate
 
-* Database creation
+* Lancer un rails server et naviguez à partir de http://localhost:3000/
 
-* Database initialization
+* Le fichier index regroupe toutes les designs proposés
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Les différents designs sont accessibles via la navbar sur une page distincte
